@@ -6,6 +6,7 @@ import routers from './routes/routes.js'
 import cors from 'cors'
 
 
+
 dotenv.config();
 
 const app = express() // NOTE: Assigning all features of express to app variable;

@@ -1,6 +1,8 @@
 import express from 'express'
 import { CreateEmployee, GetAllEmployees, UpdateEmployee, GetEmployeeById, DeleteEmployeeById} from '../controller/EmployeeController.js'
 
+console.log('logging')
+
 const routers = express.Router()
 
 //Router for Create Employee

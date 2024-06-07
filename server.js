@@ -5,7 +5,6 @@ import dotenv from 'dotenv';
 import routers from './routes/routes.js'
 import cors from 'cors'
 
-console.log('log')
 
 dotenv.config();
 
